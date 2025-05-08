@@ -1,6 +1,6 @@
-# Kafka Cluster GUI (Fyne)
+# Kafka GUI
 
-This project is a Kafka Cluster management GUI built in Go using the [Fyne](https://fyne.io/) framework.
+This project is a GUI built on top of Kafka command line tools in Go using the [Fyne](https://fyne.io/) framework.
 
 ## Features & TODO
 
