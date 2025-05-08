@@ -15,6 +15,7 @@ This project is a GUI built on top of Kafka command line tools in Go using the [
 - [x] **Resizable/Collapsible Explorer Panel** ([main.go](main.go))
 - [x] **Password fields masked** ([main.go](main.go))
 
+
 ### ⏳ Pending / TODO
 - [ ] **Test Button in Popup**
     - Validate cluster connection using [`kafkactl`](https://github.com/deviceinsight/kafkactl) (`get topics --config-file <temp>`)
@@ -33,6 +34,15 @@ This project is a GUI built on top of Kafka command line tools in Go using the [
 ## Usage
 - Run `main.go` with Go 1.18+ and Fyne installed.
 - To use real Kafka features, ensure [`kafkactl`](https://github.com/deviceinsight/kafkactl) is installed and available in your PATH.
+
+
+### Examples
+![Overview of GUI](images/overview.png)
+*Basic GUI overview*
+
+![Topic View](images/topic.png)
+*How the GUI looks when a topic is viewed*
+
 
 ## Links
 - [Fyne Documentation](https://developer.fyne.io/)
